@@ -106,6 +106,10 @@ cat ~/.ssh/id_ed25519.pub | clip
 cat ~/.ssh/id_rsa.pub | clip 
 ```
 
+4. Add SSH key to GitHub
+    - Go to GitHub Settings.
+    - Click on "New SSH key" and paste your key.
+
 ### Linux
 
 1. Generate SSH Key
