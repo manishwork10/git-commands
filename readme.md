@@ -5,7 +5,7 @@ This guide provides detailed instructions on installing Git and setting up a sec
 ## Table of Contents
 
 1. [Git Installation](#git-installation)
-2. [Git Installation](#git-bash-configuration)
+2. [Git Bash Configuration](#git-bash-configuration)
 3. [GitHub SSH Connection](#github-ssh-connection)
 4. [Basic Git Commands](#basic-git-commands)
 5. [Managing Remote Repository](#managing-remote-repository)
