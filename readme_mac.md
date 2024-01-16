@@ -128,26 +128,6 @@ git add .
 git commit -m "Commit message"
 ```
 
-### Branching
-
-1. Create a new branch:
-
-```bash
-
-git branch <branch-name>
-```
-
-2. Switch to a branch:
-
-```bash
-git switch <branch-name>
-```
-
-3. Create and switch to a new branch:
-
-```bash
-git checkout -b <branch-name>
-```
 
 ## Managing Remote Repository
 
@@ -165,7 +145,7 @@ git remote add <remote-name> <remote-url>
 git remote add origin git@github.com:anil0403/git-commands.git
 ```
 
-### Fetching and Pulling
+### Pulling
 
 1. Pull changes from a remote repository:
 
