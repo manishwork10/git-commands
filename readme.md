@@ -5,9 +5,10 @@ This guide provides detailed instructions on installing Git and setting up a sec
 ## Table of Contents
 
 1. [Git Installation](#git-installation)
-2. [GitHub SSH Connection](#github-ssh-connection)
-3. [Basic Git Commands](#basic-git-commands)
-4. [Managing Remote Repository](#managing-remote-repository)
+2. [Git Installation](#git-bash-configuration)
+3. [GitHub SSH Connection](#github-ssh-connection)
+4. [Basic Git Commands](#basic-git-commands)
+5. [Managing Remote Repository](#managing-remote-repository)
 
 ## Git Installation
 
@@ -46,6 +47,20 @@ brew install git
    ```bash
    sudo pacman -S git
    ```
+
+## Git Bash Configuration
+
+1. Set user name:
+
+```bash
+git config --global user.name "Your Name"
+```
+
+2. Set email:
+
+```bash
+git config --global user.email "your_email@example.com"
+```
 
 ## GitHub SSH Connection
 
@@ -94,7 +109,7 @@ fi
 unset env
 ```
 
-3. Add SSH Key to GitHub
+3. Copy SSH key to clipboard
 
 ```bash
 cat ~/.ssh/id_ed25519.pub | clip
@@ -206,20 +221,6 @@ pbcopy < ~/.ssh/id_ed25519.pub
     - Click on "New SSH key" and paste your key.
 
 ## Basic Git Commands
-
-### Configuration
-
-1. Set user name:
-
-```bash
-git config --global user.name "Your Name"
-```
-
-2. Set email:
-
-```bash
-git config --global user.email "your_email@example.com"
-```
 
 ### Initializing a Repository
 
