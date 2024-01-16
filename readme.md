@@ -225,10 +225,22 @@ git config --global user.email "your_email@example.com"
 git init
 ```
 
-2. Clone a repository:
+2. Change branch to main
+
+```bash
+git branch -M main
+```
+
+3. Clone a repository:
 
 ```bash
 git clone <repository-url>
+```
+
+> Example
+
+```bash
+git clone https://github.com/anil0403/git-commands.git
 ```
 
 ### Making Changes
@@ -288,6 +300,12 @@ git checkout -b <branch-name>
 
 ```bash
 git remote add <remote-name> <remote-url>
+```
+
+>Example
+
+```bash
+git remote add origin git@github.com:anil0403/git-commands.git
 ```
 
 ### Fetching and Pulling
