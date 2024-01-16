@@ -108,7 +108,7 @@ git init
 git branch -M main
 ```
 
-3. Clone a repository:
+### Clone a repository:
 
 ```bash
 git clone <repository-url>
