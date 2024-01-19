@@ -208,3 +208,4 @@ git branch -d <branch-name>
 
 ```
 this is trial of cloning.
+edited form the git hub.
