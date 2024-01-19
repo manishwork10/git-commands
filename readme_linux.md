@@ -226,3 +226,5 @@ git merge feature_branch
 git branch -d <branch-name>
 
 ```
+this  is the edited in linux.md
+
